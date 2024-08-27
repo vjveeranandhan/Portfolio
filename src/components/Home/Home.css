@@ -1,0 +1,92 @@
+.home-main-container{
+    margin: 0;
+    background-color: #282C33;
+    height: auto; /* Height adjusts based on content */
+    min-height: 100vh; /* Minimum height of the viewport height */
+    background-color: #282C33; /* Optional: Background color */
+    box-sizing: border-box; /* Includes padding in height calculations */
+}
+
+/* In your CSS */
+.horizontal-line {
+    background-color: #282C33;
+    border: none; /* Remove default border */
+    border-top: 2px solid #C778DD; /* Set line thickness and color */
+  }
+
+.details-container {
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center; /* Centers vertically */
+align-items: center; /* Centers horizontally */
+height: 100vh; /* Takes full height of the viewport */
+text-align: center;
+font-family: Chakra Petch;
+}
+
+
+.cursor-animation {
+    position: relative;
+    display: inline-block;
+    padding-right: 0.2em; /* Space for the cursor */
+  }
+  
+.cursor-animation::after {
+content: '';
+position: absolute;
+right: 0;
+bottom: 0;
+width: 0.1em; /* Width of the cursor */
+height: 1em; /* Height of the cursor */
+background-color: orange; /* Color of the cursor */
+animation: blink-caret 1s step-end infinite;
+}
+  
+/* Keyframes for blinking cursor effect */
+@keyframes blink-caret {
+from, to {
+    opacity: 0;
+}
+50% {
+    opacity: 1;
+}
+}
+
+/* General styles for the h1 element with cursor-animation class */
+.cursor-animation.name-h1 {
+    font-size: 80px; /* Default font size */
+    animation-delay: 3s; /* Animation delay */
+  }
+  
+  /* Media query for screens with a max-width of 400px */
+  @media (max-width: 400px) {
+    .cursor-animation.name-h1 {
+      font-size: 38px; /* Adjust font size for smaller screens */
+    }
+  }
+
+  @media (max-width: 440px) {
+    .cursor-animation.name-h1 {
+      font-size: 33px; /* Adjust font size for smaller screens */
+    }
+  }
+
+
+  button {
+    width: 100px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c7aee;
+    border-color: #2c7aee;
+    color: #ffffff;
+  }
