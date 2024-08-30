@@ -7,7 +7,7 @@
 }
 
 .box-container{
-    margin: 20px 0px 0px 10px;
+    margin: 20px 0px 0px 5px;
     background-color: white;
     height: 200px;
     width: 99%;
@@ -33,8 +33,8 @@ html, body {
 /* Individual box containers */
 .box-container {
     padding-top: 0px;
-    padding-left: 40px;
-    background-color: #26273b; /* Set background color */
+    padding-left: 25px;
+    background-color: #303033; /* Set background color */
     height: 200px; /* Fixed height for demonstration */
     width: calc(33% - 16px); /* Three items per row with spacing accounted for */
     /* Flexbox will automatically adjust the width for responsiveness */
@@ -55,3 +55,15 @@ html, body {
         width: 100%; /* One item per row */
     }
 }
+
+/* Hide the <br> elements by default */
+.conditional-br {
+    display: none;
+  }
+  
+  /* Show the <br> elements only on screens less than 600px wide */
+  @media (max-width: 1024px) {
+    .conditional-br {
+      display: block; /* Show the <br> elements */
+    }
+  }

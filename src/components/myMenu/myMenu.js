@@ -13,7 +13,7 @@ const MyMenu = () => {
                     <br></br>
                     <span style = {{color:'#a6a6a6'}}>8</span>
                     &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span style={{color:'#2e95d3'}}>def</span> <span style={{color:'#f22c3d'}}>__init__</span><span style={{color:'white'}}>(self, name, experiance, qualification)</span>:
+                    <span style={{color:'#2e95d3'}}>def</span> <span style={{color:'#f22c3d'}}>__init__</span><span style={{color:'white'}}>(self, name, experiance, qualification)</span><span style={{color:'white'}}>:</span>
                     <br></br>
                     <span style = {{color:'#a6a6a6'}}>13</span>
                     <span style={{color:'white'}}>
@@ -34,13 +34,32 @@ const MyMenu = () => {
                     </span>
                 </p>
             </div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
-            <div className='box-container'></div>
+            <div className='box-container'>
+                <p style={{fontFamily:'inherit', fontSize:'14px'}}>
+                <pre>
+                <>
+                    <span style={{ color: '#07ecf0' }}>const</span> <span style={{ color: 'white' }} >apiClient = axios.</span>
+                    <span style={{color: '#f59700'}}>create</span>
+                    <span style={{ color: '#07ecf0' }}>{'('}</span>
+                    <span style={{ color: '#b630db' }}>{'{'}</span>
+                    <><br /><span style={{ color: '#7d51c9' }}>baseURL</span></>
+                    <span style={{ color: 'white' }}>:</span>
+                    <span style={{ color: 'rgb(199, 120, 221)' }}>'http://107.21.158.38:8000/'</span><span style={{color:'white'}}>,</span><br />
+                    <span style={{ color: '#7d51c9' }}>headers</span>
+                    <span style={{ color: 'white' }}>:</span>
+                    <span style={{ color: '#f59700' }}>{'{'}</span><br />
+                    <span style={{ color: 'rgb(199, 120, 221)' }}>'Content-Type'</span><span style={{color:'white'}}>:</span><span style={{ color: 'rgb(199, 120, 221)' }}>'application/json'</span><span style={{color:'white'}}>,</span><br />
+                    <span style={{ color: 'rgb(199, 120, 221)', fontSize:'50px' }}>'Projects'</span>
+                    <br className="conditional-br" />
+                    <span style={{color:'white'}}>:</span><span style={{ color: 'rgb(199, 120, 221)' }}>'personal/academic'</span><span style={{color:'white'}}>,</span><br />
+                    <span style={{ color: '#f59700' }}>{'}'}</span><span style={{color:'white'}}>,</span><br />
+                    <span style={{ color: '#b630db' }}>{'}'}</span>
+                    <span style={{ color: '#07ecf0' }}>{')'}</span>
+                    <span style={{ color: 'white' }}>{';'}</span>     
+                </>
+            </pre>
+                </p>
+            </div>
             <div className='box-container'></div>
         </div>
     </div>
