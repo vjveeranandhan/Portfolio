@@ -65,7 +65,7 @@ from, to {
       font-size: 30px; /* Adjust font size for smaller screens */
     }
   .details-container{
-    height: 30vh;
+    height: 36vh;
   }
   }
 
@@ -74,13 +74,13 @@ from, to {
       font-size: 38px; /* Adjust font size for smaller screens */
     }
     .details-container{
-      height: 30vh;
+      height: 36vh;
     }
   }
 
   @media (max-width: 400px) {
     .cursor-animation.name-h1 {
-      font-size: 30px; /* Adjust font size for smaller screens */
+      font-size: 36px; /* Adjust font size for smaller screens */
     }
   .details-container{
     height: 46vh;
