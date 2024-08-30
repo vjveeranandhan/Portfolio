@@ -13,7 +13,7 @@ const Home = () => {
     <div className='home-main-container'>
       <hr className="horizontal-line" />
       <div className="details-container">
-        <h2 className="cursor-animation" style={{ animationDelay: '0s', padding:'0px'}}>Hai I'm</h2>
+        <h2 className="cursor-animation" style={{ animationDelay: '0s', paddingTop:'40px'}}>Hai I'm</h2>
         <h1 className="cursor-animation name-h1">Veeranandhan V J</h1>
         <h2 className="cursor-animation" style={{ color: '#C778DD', animationDelay: '7s' }}>Software Engineer</h2>
         <p style={{fontFamily:'inherit'}}><span style={{color:'#2e95d3'}}>const </span><span style={{color:'#2a907b'}}>githublink</span>
