@@ -1,0 +1,57 @@
+.main-container{
+    margin: 0px;
+    height: auto; /* Height adjusts based on content */
+    min-height: 100vh; /* Minimum height of the viewport height */
+    background-color: #282C33; /* Optional: Background color */
+    box-sizing: border-box;
+}
+
+.box-container{
+    margin: 20px 0px 0px 10px;
+    background-color: white;
+    height: 200px;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: #b630db;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #282C33; /* Background color */
+}
+/* Container that holds all the box containers */
+.container {
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if necessary */
+    gap: 16px; /* Optional: Add space between the items */
+    padding: 16px; /* Optional: Add padding around the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Individual box containers */
+.box-container {
+    padding-top: 0px;
+    padding-left: 40px;
+    background-color: #26273b; /* Set background color */
+    height: 200px; /* Fixed height for demonstration */
+    width: calc(33% - 16px); /* Three items per row with spacing accounted for */
+    /* Flexbox will automatically adjust the width for responsiveness */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #50245c;
+}
+
+/* Ensure responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .box-container {
+        width: calc(50% - 16px); /* Two items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .box-container {
+        margin: 15px 0px 0px 4px;
+        width: 100%; /* One item per row */
+    }
+}

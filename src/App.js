@@ -1,15 +1,14 @@
-// import logo from './logo.svg';
 import './App.css';
-import  {BrowserRouter, Routes, Route} from  "react-router-dom";
-// import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
+import MyMenu from './components/myMenu/myMenu';
+
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar/> */}
       <Routes>
-        <Route path="/" element={<Home/>} />
-        {/* <Route path="/book-seat" element={<SeatBooking/>} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<MyMenu />} />
       </Routes>
     </BrowserRouter>
   );
