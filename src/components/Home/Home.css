@@ -55,23 +55,46 @@ from, to {
 
 /* General styles for the h1 element with cursor-animation class */
 .cursor-animation.name-h1 {
-    font-size: 80px; /* Default font size */
+    font-size: 60px; /* Default font size */
     animation-delay: 3s; /* Animation delay */
   }
   
   /* Media query for screens with a max-width of 400px */
   @media (max-width: 400px) {
     .cursor-animation.name-h1 {
-      font-size: 38px; /* Adjust font size for smaller screens */
+      font-size: 30px; /* Adjust font size for smaller screens */
     }
+  .details-container{
+    height: 30vh;
+  }
   }
 
   @media (max-width: 440px) {
     .cursor-animation.name-h1 {
       font-size: 38px; /* Adjust font size for smaller screens */
     }
+    .details-container{
+      height: 30vh;
+    }
   }
 
+  @media (max-width: 400px) {
+    .cursor-animation.name-h1 {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+  .details-container{
+    height: 46vh;
+  }
+  }
+
+  @media (max-width: 391px) {
+    .cursor-animation.name-h1 {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+  .details-container{
+    height: 36vh;
+  }
+  }
 
   button {
     width: 100px;

@@ -16,6 +16,9 @@ const Home = () => {
         <h2 className="cursor-animation" style={{ animationDelay: '0s', padding:'0px'}}>Hai I'm</h2>
         <h1 className="cursor-animation name-h1">Veeranandhan V J</h1>
         <h2 className="cursor-animation" style={{ color: '#C778DD', animationDelay: '7s' }}>Software Engineer</h2>
+        <p style={{fontFamily:'inherit'}}><span style={{color:'#2e95d3'}}>const </span><span style={{color:'#2a907b'}}>githublink</span>
+        <span style={{color:'white'}}>=</span> 
+        <span style={{color: '#e99287'}}>"https://github.com/vjveeranandhan"</span></p>
         {/* <a href="./resume/Veeranandhan_vj_software_engineer.pdf" download="Veeranandhan_vj_software_engineer.pdf"> */}
           {/* <button type="submit" onClick={handleClick} >Menu &rarr;</button> */}
         {/* </a> */}
