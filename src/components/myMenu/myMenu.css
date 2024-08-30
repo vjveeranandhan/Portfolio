@@ -1,7 +1,7 @@
 .main-container{
     margin: 0px;
     height: auto; /* Height adjusts based on content */
-    min-height: 100vh; /* Minimum height of the viewport height */
+    min-height: 40vh; /* Minimum height of the viewport height */
     background-color: #282C33; /* Optional: Background color */
     box-sizing: border-box;
 }
