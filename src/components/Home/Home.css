@@ -1,14 +1,14 @@
 .home-main-container{
-    margin: 0;
-    background-color: #282C33;
     height: auto; /* Height adjusts based on content */
     min-height: 100vh; /* Minimum height of the viewport height */
     background-color: #282C33; /* Optional: Background color */
-    box-sizing: border-box; /* Includes padding in height calculations */
-}
+    box-sizing: border-box;
+    color: #282C33;
+  }
 
 /* In your CSS */
 .horizontal-line {
+    margin: 0;
     background-color: #282C33;
     border: none; /* Remove default border */
     border-top: 2px solid #C778DD; /* Set line thickness and color */
@@ -68,7 +68,7 @@ from, to {
 
   @media (max-width: 440px) {
     .cursor-animation.name-h1 {
-      font-size: 33px; /* Adjust font size for smaller screens */
+      font-size: 38px; /* Adjust font size for smaller screens */
     }
   }
 
