@@ -1,0 +1,59 @@
+[33mcommit 58138b2bbf83678bea00c6e64f7f113f4a58a712[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mdevelopment[m[33m)[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 20:34:37 2024 +0200
+
+    responsive size udated
+
+[33mcommit 4c0008b90feeb5920dac0d937f408092bd5acf89[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 20:29:34 2024 +0200
+
+    size set
+
+[33mcommit ad257b28dae7576f0e9748f7330439f1faae5c2d[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 20:25:58 2024 +0200
+
+    screen size adjusted for devices
+
+[33mcommit dad377e4caac8e37f98cdbb633f1a36ecc9cb3f1[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 19:56:49 2024 +0200
+
+    box style height adjusted
+
+[33mcommit 7c53738ed479fb34b55a32986384934a12919e8d[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 19:52:52 2024 +0200
+
+    contact style is created
+
+[33mcommit 4ca4c7809adcb9392e5f956609f712b140cf0951[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 18:55:04 2024 +0200
+
+    project menu design created
+
+[33mcommit d16c7c6ae6e8ccbb7580095bb147fec2798e95ae[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 12:31:20 2024 +0200
+
+    about design is created in menu section
+
+[33mcommit 379e3383954cdcbdf35cd41d646807202ef5dbf9[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Fri Aug 30 07:30:13 2024 +0200
+
+    change in style
+
+[33mcommit cc903cc26ed5fd8c34be75aa50f988286a306a8d[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Tue Aug 27 10:59:42 2024 +0200
+
+    first commit
+
+[33mcommit 2b5c7baf050d21d01f363e273b82f940cf3e8de7[m
+Author: vjveeranandhan <vjveeranandhan@gmail.com>
+Date:   Sun Aug 25 21:00:02 2024 +0200
+
+    Initialize project using Create React App
